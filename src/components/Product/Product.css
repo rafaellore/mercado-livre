@@ -1,0 +1,86 @@
+.product{
+    border-radius: 10px;
+    margin: 40px 79px;
+    min-width: 800px;
+    height: 800px;
+    background-color: #ffffff;
+    position: relative;
+    z-index: 5;
+    -webkit-box-shadow: -1px 9px 10px -2px #4F4F4F; 
+    box-shadow: 0px 1px 5px -2px #4F4F4F;
+}
+.product-up{
+    display: flex;
+    flex-direction: row;
+    padding: 15px 0px;
+    background-color: #ededed;
+}
+.product-up-item{
+    font-size: 13px;
+    color: var(--color-blue);
+    cursor: pointer;
+    transition: all ease 0.3s;
+    padding-right: 5px;
+}
+.product-up-item:hover{
+    color: #2a62b8;
+}
+.product-up-item-first{
+    font-size: 13px;
+    color: var(--color-black);
+    cursor: pointer;
+    transition: all ease 0.3s;
+    padding-right: 5px;
+    padding-left: 20px;    
+}
+.product-up-icon{
+    margin-top: 3px;
+    margin-left: 4px;
+    color: var(--color-black);
+}
+.broke{
+    color: var(--color-search-placeholder);
+    padding: 0 10px;
+    margin-top: -2px;
+}
+.product-up-right{
+    margin-left: 310px;
+    display: flex;
+    flex-direction: row;
+}
+.product-mid{
+    margin: 20px 10px;
+    display: flex;
+    flex-direction: row;
+}
+.left-images{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+.left-image{
+    width: 45px;
+    height: 45px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 2px;
+    border: 1px solid var(--color-search-placeholder);
+}
+.left-image:first-child{
+    border: 2px solid var(--color-blue);
+    margin-left: 1px;
+    margin-top: 0;
+    background-image: url("https://cdn.pixabay.com/photo/2013/07/12/15/06/guitar-149427_960_720.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.active-image{
+    background-image: url("https://cdn.pixabay.com/photo/2013/07/12/15/06/guitar-149427_960_720.png");
+    width: 700px;
+    height: 700px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0 20px;
+}

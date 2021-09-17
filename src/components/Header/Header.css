@@ -1,0 +1,132 @@
+header{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: var(--color-header);
+    padding: 0 80px;
+    height: 100px;
+}
+.left-side{
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+}
+.marker{
+    padding: 5px 0;
+    font-size: 12px;
+    min-width: 300px;
+    margin-top: 6px;
+}
+.icon-marker{
+    float: left;
+}
+.first-p{
+    font-weight: lighter;
+}
+.last-p{
+    font-weight: 400;
+}
+.mid-side{
+    margin-left: -110px;
+}
+.search-mid{
+    width: 560px;
+    height: 38px;
+    border: 0;
+    margin-top: 8px;
+    -webkit-box-shadow: -1px 9px 10px -2px #4F4F4F; 
+    box-shadow: 0px 1px 5px -2px #4F4F4F;
+    outline: none;
+    padding: 0 15px;
+    font-size: 15px;
+    position: absolute;
+}
+
+.search-mid::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #a1a1a1;
+    font-weight: 300;
+  }
+
+.search-icon{
+    color: #a1a1a1;
+    position: relative;
+    margin-top: 18px;
+    margin-left: 550px;
+}
+.categories{
+    display: flex;
+    flex-direction: row;
+    font-size: 13px;
+    font-weight: 400;
+    margin-top: 30px;
+    margin-left: -10px;
+}
+.categories p{
+    padding: 0 10px;
+    color: #9f9946;
+    transition: all ease 0.3s;
+    cursor: pointer;
+}
+.categories p:hover{
+    color: var(--color-black);
+}
+.categories-button{
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+    color: #978181;
+    transition: all ease 0.3s;
+}
+.categories-button:hover{
+    cursor: pointer;
+    color: var(--color-black);
+}
+.categorie-icon{
+    margin-top: 3px;
+}
+.right-side{
+    margin-left: 160px;
+    padding: 20px 10px;
+    
+}
+.up-right{
+    display: flex;
+    flex-direction: row;
+    color: var(--color-black);
+    cursor: pointer;
+}
+.up-right p{
+    margin-top: 0px;
+    margin-left: 8px;
+    font-weight: 400;
+}
+.ticket-icon{
+    margin-top: -7px;
+}
+
+.down-right{
+    display: flex;
+    flex-direction: row;
+    color: var(--color-black);
+    margin-top: 23px;
+    margin-left: -8px;
+    font-size: 13px;
+    font-weight: 400;
+    transition: all ease 0.3s;
+}
+
+.down-right p{
+    padding: 0 13px;
+    cursor: pointer;
+}
+.down-right p:hover{
+    color: black;
+}
+.cart-icon{
+    cursor: pointer;
+    margin-top: -5px;
+}
+.cart-icon:hover{
+    color: black;
+}
+
